@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Young+Serif&display=swap');
+
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  *{
+    font-family: "Young Serif", serif;
+    font-size: 16px;
+  }
+  body{
+    background-color: hsl(30, 54%, 90%);
+  }
+  .container{
+    margin: 100px 200px;
+    padding: 100px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+  }
+  .picture {
+    border-radius: 30px;
+    height: 400px;
+    background-image: url(/assets/images/image-omelette.jpeg);
+    background-size: cover;
+    background-position: center;
+  }
+  h1{
+    font-size: 36px;
+  }
+  h2{
+      color: rgba(136, 46, 219, 0.774);
+  }
+  .card-1{
+      h3{
+          color: blueviolet;
+      }
+      ul li{
+        margin: 10px;
+      }
+      padding: 5px 20px;
+      background-color: hsl(327, 44%, 95%);
+    border-radius: 5px;
+  }
+  .card-2{
+    ul li{
+        margin: 10px;
+      }
+  }
+  .card-3{
+    ol li::marker {
+        color:hsl(332, 56.30%, 82.90%); /* เปลี่ยนสีของเครื่องหมาย */
+    }
+  }
+  .nutrition-table {
+    width: 100%;
+    text-align: left;
+}
+
+.nutrition-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.bold {
+    font-weight: bold;
+    color: #7B3F00;
+    text-align: left;
+}
+
+
+  @media (max-width: 390px){
+    header{
+        display: none;
+    }
+    
+  }
